@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Fire Dragon",
+    "set": "Base Set",
+    "type": "Creature",
+    "rarity": "Rare"
+  },
+  {
+    "id": 2,
+    "name": "Healing Potion",
+    "set": "Base Set",
+    "type": "Item",
+    "rarity": "Common"
+  }
+]
