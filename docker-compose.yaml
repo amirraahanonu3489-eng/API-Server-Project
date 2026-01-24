@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  card-service-3000:
+    image: card-server:latest
+    ports:
+      - "3000:3000"
+    deploy:
+      replicas: 3
+
+  card-service-3001:
+    image: card-server:latest
+    ports:
+      - "3001:3000"
+    deploy:
+      replicas: 2
